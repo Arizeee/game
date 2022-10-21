@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-size: cover;
+    background-image: url(./img/denise-jans-zvRgcCx8Nvs-unsplash.jpg)
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul {
+    padding-top: 20px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.judul-game {
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    left: 330px;
+    font-size: 30px;
+}
+
+.warna {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    width: 30%;
+}
+
+.container button {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.mulai {
+    margin-left: 229px;
+    background-color: rgb(8, 61, 234);
+    border: none;
+    color: white;
+}
+
+.out {
+    background-color: rgb(244, 8, 8);
+    border: none;
+    color: white;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.t-warna {
+    font-size: 25px;
+    text-align: center;
+}
+
+.nama-game {
+    position: relative;
+    top: 5px;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    border-radius: 10px;
+    color: #f1f1f1;
+}
+
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    margin: 50px auto 30px;
+
+}
+
+#area {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-game button {
+
+    padding: 5px;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.ulang {
+    margin-left: 587px;
+}
+
+.kembali {
+    margin-right: 300px;
+}
+
+
+
+footer {
+    top: 596px;
+    background-color: rgba(0, 255, 255, 0.104);
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    color: #f1f1f1;
+
+}
+
+footer h1 {
+    color: #f1f1f1;
+    margin: 5px;
+}

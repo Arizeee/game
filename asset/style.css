@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url('asset/Tumblr.gif');
+    background-size: cover;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-size: cover;
+    background-image: url(./img/denise-jans-zvRgcCx8Nvs-unsplash.jpg)
+}
+
