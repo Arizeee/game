@@ -15,7 +15,7 @@ else{
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="asset/index.css">
+    <link rel="stylesheet" href="index.css">
     <!-- <script src="game.js"></script> -->
 </head>
 <body>
@@ -31,7 +31,7 @@ else{
     </div>
 
     <div id="game" style="display: none;">
-        <p class="judul-game" id="id-p">Player:<?= $user['username']; ?>#<?= $user['id'] ?></p>
+        <p class="judul-game" id="idp">Player:<?= $user['username']; ?>#<?= $user['id'] ?></p>
         <div id="area"></div>
         <div class="btn-game"  id="btn-g" style="display: none;">
         <button onclick="ulang()" class="ulang" id="ulang">Try Again</button> <button onclick="kembali()" class="kembali" id="kembali">Back</button>
@@ -44,6 +44,7 @@ function ulang(){
     mulai()
     document.getElementById("ulang").style.display = "none"
     document.getElementById("kembali").style.display = "none"
+
 }
 
 
@@ -55,6 +56,7 @@ function kembali(){
 var myGamePiece;
 var myObstacles = [];
 var myScore;
+var nick = document.getElementById('idp');
 
 function mulai() {
 
@@ -66,6 +68,7 @@ function mulai() {
     myScore = new component("30px", "Consolas", "black", 600, 40, "text");
     myGameArea.start();
     myObstacles = [];
+    nick.style.color = color.value;
 }
 
 var myGameArea = {

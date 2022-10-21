@@ -7,7 +7,7 @@
 }
 body {
     background-size: cover;
-    background-image: url(./img/denise-jans-zvRgcCx8Nvs-unsplash.jpg)
+    background-image: url()
 }
 
 
@@ -41,7 +41,7 @@ body {
 
 
 .card1 {
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
     padding: 50px;
     width: 30%;
@@ -86,14 +86,15 @@ body {
     margin-bottom: 10px;
     margin-top: 80px;
     border-radius: 10px;
-    color: #f1f1f1;
+    color: black;
 }
 
 
 canvas {
     border: 1px solid #d3d3d3;
-    background-color: #f1f1f1;
+    background-image: url(asset/bghome.gif);
     margin: 50px auto 30px;
+    width: 50%;
 
 }
 

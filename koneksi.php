@@ -8,7 +8,7 @@
       $password = "";
       //password aalah untuk mempassword jika tidak ada berarti tidak memiliki password
   
-      $database = "gameboss";
+      $database = "loginreg";
       //database yang di localhost
   
       $connect = mysqli_connect($host,$user,$password,$database) or die ("gagal menghubungkan");

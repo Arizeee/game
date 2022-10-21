@@ -82,23 +82,14 @@
         showConfirmButton: false
       })
 
-    }else if(data.name = "" && data.username && data.password){
+    }else{
       Swal.fire({
-        title : "gagal",
-        icon : "error",
-        text : "fullname harus di isi",
+        icon : "success",
+        title : "Selamat bermain",
         timer : 2000,
         showCancelButton: false,
-        showConfirmButton: false
+            showConfirmButton: false
       })
-  }else{
-    Swal.fire({
-      icon : "success",
-      title : "Selamat bermain",
-      timer : 2000,
-      showCancelButton: false,
-          showConfirmButton: false
-    })
       var username = document.getElementById('username').value
     $(document).ready(function(){
 
